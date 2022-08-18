@@ -1,7 +1,14 @@
 package homework16;
 
-import java.util.ArrayList;
-import java.util.List;
+/**
+ * Java Pro. Homework #12
+ *
+ * @author Igor Cijov
+ * @version 16 Aug 2022
+ */
+
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class HomeWork16 {
 
@@ -13,7 +20,6 @@ public class HomeWork16 {
             if (array[i] == value) {
                 indexList.add(i);
             }
-
         }
         try {
             for (int i = indexList.get(0) + 1; i < array.length; i++) {

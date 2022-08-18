@@ -1,3 +1,10 @@
+package homework16;
+/**
+ * Java Pro. Homework #12
+ * @author Igor Cijov
+ * @version 16 Aug 2022
+ */
+
 import homework16.HomeWork16;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Disabled;
